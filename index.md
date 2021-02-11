@@ -12,7 +12,7 @@ this is probably what you're here for, if anything
 # [software/code repos](./software)
 sometimes I write a program, or contribute to one.
 
-# [hardware hackery](./hardware)
+# [hardware hackery](./hackery)
 repurposing and modifying things for fun and profit
 
 # [repos](./repos)
