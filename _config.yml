@@ -13,24 +13,34 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: neg2led.github.io
+title: neggles make a website
 email: neggles@neggl.es
 description: >- # this means to ignore newlines until "baseurl:"
-  I make electronics and write bad code.
+  this is my github pages user site, it mostly just links to other github pages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://neg2led.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: neg2led
 github_username:  neg2led
-show_downloads: false
+instagram_username: sirneggles
+
+show_excerpts: true
+header_pages:
+  - about.md
+  - electronics.md
+  - repos.md
 
 repository: neg2led/neg2led.github.io
-github: [metadata]
+github:
+  is_project_page: false
+  is_user_page: true
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+theme: minima
 plugins:
+  - jekyll-github-metadata
   - jekyll-feed
 
 # Exclude from processing.
