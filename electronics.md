@@ -1,7 +1,7 @@
 ---
 layout: page
-title: electronics projects
-permalink: /electronics/
+title: electronics
+permalink: /electronics
 ---
 
 ### [flatpack2-adapter](./flatpack2-adapter)

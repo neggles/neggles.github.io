@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: neggles make a website
+title: shady electronics and bad code
 email: neggles@neggl.es
 description: >- # this means to ignore newlines until "baseurl:"
   this is my github pages user site, it mostly just links to other github pages.
@@ -26,8 +26,9 @@ instagram_username: sirneggles
 
 show_excerpts: true
 header_pages:
-  - about.md
   - electronics.md
+  - software.md
+  - hackery.md
   - repos.md
 
 repository: neg2led/neg2led.github.io
