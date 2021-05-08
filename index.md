@@ -12,6 +12,9 @@ this is probably what you're here for, if anything
 # [software/code repos](./software)
 sometimes I write a program, or contribute to one.
 
+# [pi case 40 shutdown](./pi-case-40)
+how to use the shutdown button on a Cooler Master Pi Case 40 without their bloated utility
+
 # [hardware hackery](./hackery)
 repurposing and modifying things for fun and profit
 
