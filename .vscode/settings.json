@@ -1,0 +1,5 @@
+{
+    "scss.format.braceStyle": "collapse",
+    "scss.format.newlineBetweenRules": false,
+    "scss.format.newlineBetweenSelectors": false
+}

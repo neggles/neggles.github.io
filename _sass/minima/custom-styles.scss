@@ -1,0 +1,85 @@
+// Colorspace overrides
+
+.cyan {
+    h1 { color: $drac-cyan; }
+    h2, h3 { color: $drac-green; }
+    h4, h5, h6 { color: $drac-orange; }
+    a {
+        color: $drac-cyan;
+        &:hover { color: darken($drac-cyan, 20%); }
+    }
+    hr { background: $drac-cyan; }
+    blockquote { border-color: $drac-cyan; }
+}
+
+.green {
+    h1 { color: $drac-green; }
+    h2, h3 { color: $drac-cyan; }
+    h4, h5, h6 { color: $drac-yellow; }
+    a {
+        color: $drac-green;
+        &:hover { color: darken($drac-green, 20%); }
+    }
+    hr { background: $drac-green; }
+    blockquote { border-color: $drac-green; }
+}
+
+.orange {
+    h1 { color: $drac-orange; }
+    h2, h3 { color: $drac-yellow; }
+    h4, h5, h6 { color: $drac-green; }
+    a {
+        color: $drac-orange;
+        &:hover { color: darken($drac-orange, 20%); }
+    }
+    hr { background: $drac-orange; }
+    blockquote { border-color: $drac-orange; }
+}
+
+.pink {
+    h1 { color: $drac-pink; }
+    h2, h3 { color: $drac-purple; }
+    h4, h5, h6 { color: $drac-orange; }
+    a {
+        color: $drac-pink;
+        &:hover { color: darken($drac-pink, 20%); }
+    }
+    hr { background: $drac-pink; }
+    blockquote { border-color: $drac-pink; }
+}
+
+.purple {
+    h1 { color: $drac-purple; }
+    h2, h3 { color: $drac-green; }
+    h4, h5, h6 { color: $drac-cyan; }
+    a {
+        color: $drac-purple;
+        &:hover { color: darken($drac-purple, 20%); }
+    }
+    hr { background: $drac-purple; }
+    blockquote { border-color: $drac-purple; }
+}
+
+.red {
+    h1 { color: $drac-red; }
+    h2, h3 { color: $drac-yellow; }
+    h4, h5, h6 { color: $drac-pink; }
+    a {
+        color: $drac-red;
+        &:hover { color: darken($drac-red, 20%); }
+    }
+    hr { background: $drac-red; }
+    blockquote { border-color: $drac-red; }
+}
+
+.yellow {
+    h1 { color: $drac-yellow; }
+    h2, h3 { color: $drac-pink; }
+    h4, h5, h6 { color: $drac-green; }
+    a {
+        color: $drac-yellow;
+        &:hover { color: darken($drac-yellow, 20%); }
+    }
+    hr { background: $drac-yellow; }
+    blockquote { border-color: $drac-yellow; }
+}

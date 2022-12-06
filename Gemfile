@@ -3,26 +3,18 @@ source "https://rubygems.org"
 # dotenv
 gem 'dotenv-rails'
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-gem "jekyll", "~> 3.9.0"
+gem "jekyll", "~> 3.9.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "jekyll-theme-cayman", "~> 0.1.1"
+gem "minima", github: "jekyll/minima"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 211", group: :jekyll_plugins
+gem "github-pages", "~> 227", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed", "~> 0.15.1"
   gem "jekyll-github-metadata", "~> 2.13.0"
 end
 
@@ -36,6 +28,10 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
-# kramdown v2 ships without the gfm parser by default. If you're using
-# kramdown v1, comment out this line.
-gem "kramdown-parser-gfm"
+# kramdown v2 ships without the gfm parser by default
+gem "kramdown-parser-gfm", "~> 1.1.0"
+
+# need dis for ruby 3
+gem "webrick", "~> 1.7"
+
+gem "rouge", "~> 3.26.0"
