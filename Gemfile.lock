@@ -309,6 +309,7 @@ DEPENDENCIES
   jekyll (~> 3.9.2)
   jekyll-feed (~> 0.15.1)
   jekyll-github-metadata (~> 2.13.0)
+  jekyll-remote-theme (~> 0.4.3)
   kramdown-parser-gfm (~> 1.1.0)
   minima!
   rouge (~> 3.26.0)

@@ -16,6 +16,7 @@ gem "github-pages", "~> 227", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15.1"
   gem "jekyll-github-metadata", "~> 2.13.0"
+  gem "jekyll-remote-theme", "~> 0.4.3"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
